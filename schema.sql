@@ -36,13 +36,10 @@ avatar_url TEXT,
 contacts TEXT
 );
 CREATE UNIQUE INDEX email ON users(email);
-
 CREATE INDEX date_end ON lots(date_end);
 CREATE INDEX date_create ON lots(date_create);
 CREATE INDEX author_id ON lots(author_id);
 CREATE INDEX adv_category_id ON lots(adv_category_id);
-
 CREATE INDEX user_id ON bets(user_id);
 CREATE INDEX lot_id ON bets(lot_id);
-
 CREATE FULLTEXT INDEX search_name_desc ON lots(name, description);

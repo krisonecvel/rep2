@@ -14,7 +14,7 @@ function compile_template($template, $teamlate_data) {
 }
 $is_auth = rand(0, 1);
 
-$user_name = 'Кристина'; // укажите здесь ваше имя
+$user_name = 'Katya'; // укажите здесь ваше имя
 
 $arr = [
     "boards" => "Доски и лыжи",
